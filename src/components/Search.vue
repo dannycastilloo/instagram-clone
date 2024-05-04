@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="rounded-md bg-gray-900 flex gap-4 px-4 py-2">
+    <div class="rounded-md bg-gray1 flex gap-4 px-2 py-1">
         <label for="search-input" class="flex items-center cursor-pointer">
             <img src="/icons/search.svg" class="w-4 h-4" alt="Search" >
         </label>

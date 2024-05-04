@@ -12,10 +12,10 @@ export default {
 </script>
 
 <template>
-    <header class="fixed justify-center items-center bottom-0 bg-black w-full md:left-0 py-4 md:py-2 md:h-full md:w-auto md:px-8 lg:px-4 lg:border-r lg:border-gray-300 lg:py-10">
+    <header class="fixed justify-center items-center bottom-0 bg-black w-full md:left-0 py-4 md:py-2 md:h-full md:w-auto md:px-8 lg:px-3 lg:border-r lg:border-gray-300 lg:py-4">
         <div class="w-10/12 md:h-full md:py-8 m-auto flex justify-between items-center md:flex-col lg:w-full lg:py-0">
             <NAV class="hidden md:flex lg:hidden" imgSrc="./icons/instagram.svg" navName="Home" to="/" />
-            <RouterLink class="hidden lg:flex lg:justify-start lg:items-center w-full lg:pt-6" to="/">
+            <RouterLink class="hidden lg:flex lg:justify-start lg:items-center w-full lg:pt-6 lg:px-2" to="/">
                 <img src="/icons/logo.svg" >
             </RouterLink>
             <nav class="flex items-center justify-between w-full md:flex-col md:gap-4 md:m-auto lg:gap-2">

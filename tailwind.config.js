@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       width: {
         'nav-icon': '70px',
-      }
+      },
+      colors: {
+        gray1: '#1A1A1A'
+      },
     },
   },
   plugins: [],
